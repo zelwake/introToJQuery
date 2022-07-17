@@ -1,11 +1,35 @@
+body {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
 p {
-    background: #0D91A1;
-    color: #015668;
-    width: 150px;
-    height: 10px;
-    padding: 30px;
-    margin: 15px;
-    border: 5px solid #7DCE94;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    margin: 2px;
+    border: solid 2px black;
+    padding: 5px;
+}
+
+p:hover {
+    border: solid 2px green;
+    background: red;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
